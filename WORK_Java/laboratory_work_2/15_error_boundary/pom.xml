@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ru.sibguti.lab2</groupId>
+    <artifactId>task15</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>Задание 15. Полная граница ошибок CourseHub</name>
+    <description>Продолжение заданий 3, 7 и 14: перенесены CourseCode, CourseStatus и ErrorCode из задания 3, Course, EnrollmentService и EnrollmentDecision из задания 7, а CourseRepository, RepositoryUnavailableException, InMemoryCourseRepository, CourseImporter, ImportFailedException и ImportReport из задания 14 - все без изменений. В этом задании создаётся публичный слой CourseHubFacade с HubResult и EnrollmentBook, который переводит внутренние ошибки в стабильные коды.</description>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <build>
+        <sourceDirectory>${project.basedir}/main</sourceDirectory>
+        <testSourceDirectory>${project.basedir}/test</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>${project.basedir}/data</directory>
+            </testResource>
+        </testResources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.2</version>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.11.4</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ru.sibguti.lab2</groupId>
+    <artifactId>laboratory-work-2</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <name>Лабораторная работа 2. Исключения в Java</name>
+    <description>
+        Каждое задание лежит в своей папке и собирается независимо:
+        файлы классов - в main, тесты - в test, данные - в data.
+        Общие классы копируются в папку задания и помечены комментарием
+        "КОПИЯ ФАЙЛА" с указанием, из какого задания они пришли.
+        Этот корневой pom.xml только собирает все задания разом.
+    </description>
+
+    <modules>
+        <module>01_stack_trace</module>
+        <module>02_checked_and_unchecked</module>
+        <module>03_checked_exception</module>
+        <module>04_try_catch_finally</module>
+        <module>05_try_with_resources</module>
+        <module>06_course_import</module>
+        <module>07_course_service</module>
+        <module>08_test_course_hours</module>
+        <module>09_test_duration_boundary</module>
+        <module>10_test_course_code</module>
+        <module>11_test_rejection_state</module>
+        <module>12_test_stability</module>
+        <module>13_decision_table</module>
+        <module>14_import_two_failures</module>
+        <module>15_error_boundary</module>
+    </modules>
+</project>

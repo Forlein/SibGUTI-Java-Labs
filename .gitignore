@@ -1,0 +1,26 @@
+# Build-артефакты Maven и Gradle
+target/
+build/
+out/
+bin/
+
+# Классы и архивы
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+nbproject/
+
+# Прочее
+*.log
+.DS_Store
+Thumbs.db
