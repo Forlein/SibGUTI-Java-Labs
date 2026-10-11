@@ -8,6 +8,7 @@
 |---|---|---|---|
 | № 1. Полиморфизм и проектирование | [`laboratory_work_1/`](laboratory_work_1) | 15 заданий, каждое в отдельном `.java`-файле с `main` | `javac` + `java`, без сборщика |
 | № 2. Исключения в Java | [`laboratory_work_2/`](laboratory_work_2) | 15 папок-заданий, в каждой `main`, `test` и `data` | Maven, корневой `pom.xml` |
+| № 3. Коллекции и дженерики | [`laboratory_work_3/`](laboratory_work_3) | 15 папок-заданий, в каждой пакет, `main` и `run.bat` | `javac` + `java`, без сборщика |
 
 ## Как запустить
 
@@ -24,6 +25,14 @@ java -cp . OneContractTwoImplementations
 ```
 cd WORK_Java/laboratory_work_2
 mvn test
+```
+
+Лабораторная 3 — достаточно JDK 21 (в каждой папке-задании есть `run.bat`):
+
+```
+cd WORK_Java/laboratory_work_3
+javac -encoding UTF-8 task_01_list_order\*.java
+java -Dstdout.encoding=UTF-8 -cp . task_01_list_order.task_01_list_order
 ```
 
 Подробности по каждой лабораторной — в её README.
