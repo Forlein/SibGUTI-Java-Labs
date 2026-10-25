@@ -1,3 +1,8 @@
+/*
+Задание 8. Потоковый импорт большого файла
+
+Обработайте файл, превосходящий доступную память, без `readAllLines`. Поддержите счётчики, ограниченный список ошибок и отмену после заданного порога.
+*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;

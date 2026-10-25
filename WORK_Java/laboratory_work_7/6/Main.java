@@ -1,3 +1,8 @@
+/*
+Задание 6. Временный файл и move
+
+Записывайте новый каталог во временный файл того же каталога, flush/close, затем заменяйте целевой файл move-операцией. Обработайте отсутствие atomic move на файловой системе.
+*/
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

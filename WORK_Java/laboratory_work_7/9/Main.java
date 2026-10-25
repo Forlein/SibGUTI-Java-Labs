@@ -1,3 +1,8 @@
+/*
+Задание 9. Версионируемый формат
+
+Добавьте schema version, checksum и migration из версии 1 в 2. Неизвестная будущая версия не читается как старая. Повреждение обнаруживается до публикации объектов.
+*/
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;

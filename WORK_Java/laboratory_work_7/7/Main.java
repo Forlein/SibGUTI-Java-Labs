@@ -1,3 +1,8 @@
+/*
+Задание 7. Частично повреждённый импорт
+
+Импортёр собирает ошибки с номерами строк и не публикует половину каталога. Выберите atomic all-or-nothing либо partial result и зафиксируйте контракт типом результата.
+*/
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

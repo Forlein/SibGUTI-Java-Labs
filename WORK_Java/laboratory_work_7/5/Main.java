@@ -1,3 +1,8 @@
+/*
+Задание 5. Бинарный формат
+
+Запишите magic header, version, количество и записи через `DataOutputStream`; прочитайте через `DataInputStream`. Отклоняйте неизвестную версию и обрезанный файл.
+*/
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.DataInputStream;

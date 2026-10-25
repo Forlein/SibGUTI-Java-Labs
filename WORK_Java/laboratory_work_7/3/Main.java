@@ -1,3 +1,8 @@
+/*
+Задание 3. Try-with-resources
+
+Создайте pipeline чтения и записи, в середине которого возникает исключение. Докажите закрытие обоих ресурсов и правильный порядок close.
+*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.Closeable;

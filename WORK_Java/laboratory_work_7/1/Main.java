@@ -1,3 +1,6 @@
+/*
+Задание 1. Сохраните каталог курсов в UTF-8, прочитайте, обработайте отсутствие файла и существующий каталог вместо файла. Не ловите ошибку только ради печати и продолжения с ложным успехом.
+*/
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;

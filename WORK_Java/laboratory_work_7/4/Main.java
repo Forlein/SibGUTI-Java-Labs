@@ -1,3 +1,8 @@
+/*
+Задание 4. Ленивые строки
+
+Используйте `Files.lines` только внутри try-with-resources. Воспроизведите ошибочный возврат stream наружу и объясните, кто обязан владеть ресурсом.
+*/
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;

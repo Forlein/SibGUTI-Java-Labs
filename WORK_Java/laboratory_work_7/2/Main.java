@@ -1,3 +1,8 @@
+/*
+Задание 2. `Reader`/`Writer`
+
+Перепишите текстовую обработку через buffered reader/writer, считайте строки и символы. Объясните границу bytes → chars.
+*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
