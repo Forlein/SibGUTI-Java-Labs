@@ -10,6 +10,7 @@
 | № 2. Исключения в Java | [`laboratory_work_2/`](laboratory_work_2) | 15 папок-заданий, в каждой `main`, `test` и `data` | Maven, корневой `pom.xml` |
 | № 3. Полиморфизм и проектирование | [`laboratory_work_3/`](laboratory_work_3) | 15 папок-заданий, в каждой `main` и вспомогательные классы | `javac` + `java`, без сборщика |
 | № 4. Контракты, полиморфизм и проектирование | [`laboratory_work_4/`](WORK_Java/laboratory_work_4) | Папка чистых задач `tasks/`, общий пакет `common/`, `Main.java` и `run.bat` | `javac` + `java`, без сборщика |
+| № 7. Файлы и потоки ввода-вывода | [`laboratory_work_7/`](laboratory_work_7) | 9 папок-заданий, в каждой `Main.java` | `javac` + `java`, без сборщика |
 
 ## Как запустить
 
@@ -41,6 +42,15 @@ java -Dstdout.encoding=UTF-8 -cp out Proba_1
 ```
 cd WORK_Java/laboratory_work_4
 javac -encoding UTF-8 -d out common\*.java tasks\*.java Main.java
+java -Dstdout.encoding=UTF-8 -cp out Main
+```
+
+Лабораторная 7 — достаточно JDK 21 (каждое задание собирается независимо):
+
+```
+cd WORK_Java/laboratory_work_7
+cd 1
+javac -encoding UTF-8 -d out Main.java
 java -Dstdout.encoding=UTF-8 -cp out Main
 ```
 
